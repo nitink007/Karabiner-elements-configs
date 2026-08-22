@@ -322,7 +322,7 @@ rapoo_fn_lock.json
           },
           "to": [
             {
-              "apple_vendor_keyboard_key_code": "brightness_up"
+              "apple_vendor_keyboard_key_code": "brightness_down"
             }
           ],
           "conditions": [
@@ -341,7 +341,7 @@ rapoo_fn_lock.json
           },
           "to": [
             {
-              "apple_vendor_keyboard_key_code": "brightness_down"
+              "apple_vendor_keyboard_key_code": "brightness_up"
             }
           ],
           "conditions": [
@@ -644,8 +644,8 @@ The F-keys now behave like the Mac special-function row.
 
 | Key | Action             |
 | --- | ------------------ |
-| F1  | 🔆 Brightness Up   |
-| F2  | 🔅 Brightness Down |
+| F1  | 🔅 Brightness Down |
+| F2  | 🔆 Brightness Up   |
 | F3  | 🪟 Mission Control |
 | F4  | ✉️ Mail            |
 | F5  | 🎵 Music / Player  |
@@ -668,8 +668,8 @@ Left Option + Esc
 ```
 
 ```text
-F1 → Brightness ↑
-F2 → Brightness ↓
+F1 → Brightness ↓
+F2 → Brightness ↑
 ...
 F12 → Mute
 ```
@@ -735,8 +735,8 @@ Left Option + Esc
 
 Then verify:
 
-* [ ] F1 → Brightness Up
-* [ ] F2 → Brightness Down
+* [ ] F1 → Brightness Down
+* [ ] F2 → Brightness Up
 * [ ] F3 → Mission Control
 * [ ] F4 → Mail
 * [ ] F5 → Music
@@ -946,8 +946,8 @@ You effectively turn the Rapoo E9050L into a keyboard with a software Fn-Lock:
              OFF                       ON
               │                         │
               ▼                         ▼
-         F1 → F1                  F1 → Brightness ↑
-         F2 → F2                  F2 → Brightness ↓
+         F1 → F1                  F1 → Brightness ↓
+         F2 → F2                  F2 → Brightness ↑
          F3 → F3                  F3 → Mission Control
          F4 → F4                  F4 → Mail
          F5 → F5                  F5 → Music
